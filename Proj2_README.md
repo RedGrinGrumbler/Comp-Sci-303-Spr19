@@ -13,6 +13,26 @@ _for example..._
 
 [Project Guide Lines][Project Guide Lines]
 
+**Member Responsibilities**
+
+	Adam: (Team Leader)
+    Proj2_Guidelines.md
+    Proj2_README.md
+    Project 2 Wiki 
+    Code Reviewer
+    Individual Report
+    
+	
+	David: 
+    Tree Building Algorithm Design
+    Project Report
+    Individual Report
+	
+	Brad:  
+    UML Design 
+    Individual Report
+	
+
 ## Objectives
 + Store each letter of the alphabet in a node of a binary tree of depth 4.  
   + The root node is at depth 0 and stores no letter.  
