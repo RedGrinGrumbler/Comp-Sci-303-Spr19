@@ -3,12 +3,15 @@
 ## Summary 
 
 Morse code is a common code that is used to encode messages consisting of letters and digits.  
-Each letter consists of a series of dots and dashes, for example...  
+Each letter consists of a series of dots and dashes,   
+_for example..._  
 
 | Character        | Morse           |
 | ------------- |:-------------:| 
 | a      | •- |
 | b      | -••• |
+
+[Project Guide Lines][Project Guide Lines]
 
 ## Objectives
 + Store each letter of the alphabet in a node of a binary tree of depth 4.  
@@ -52,16 +55,16 @@ Each letter consists of a series of dots and dashes, for example...
     (*Notice that the file hasn’t been laid out in convenient order for building the tree*).
 
 + **(Weight: 30%)** Your system should be able to decode a message using the morse tree that you built.  
-  + For example... 
-    + Decoding -•• --• results in “dg”.   
+_For example..._
+  + Decoding -•• --• results in “dg”.   
     (_Notice that between the symbols (dots and dashes) is a space._)  
     (_The space is a delimiter that separates the codes for letters._)  
 
 + **(Weight: 30%)** Your system should also encode a message. 
-  + For example...
-    + Encoding “ac” results in •- -•-•.
+  _For example..._ 
+  + Encoding “ac” results in •- -•-•.
     
-+ **NOTE: You may use a binary search tree or a map to store the codes for letters.**
++ **NOTE:** _You may use a binary search tree or a map to store the codes for letters._
 
 ## Resources (Need Links)
 
@@ -73,3 +76,4 @@ Inspiration References
 [Binary_Tree]: https://github.com/RedGrinGrumbler/Comp-Sci-303-Spr19/blob/master/Proj2_ResourceFile_TreeImg.png "BAD LINK"
 [Binary_Search_Tree]: https://github.com/RedGrinGrumbler/Comp-Sci-303-Spr19/blob/master/Proj2_ResourceFile_TreeImg.png "BAD LINK"
 [Instructor_Provided_Dropbox]: https://www.dropbox.com/s/3cj8yb8gcdsrefg/morse.txt?dl=0
+[Project Guide Lines]: https://github.com/RedGrinGrumbler/Comp-Sci-303-Spr19/blob/master/Proj2_Guidelines.md
