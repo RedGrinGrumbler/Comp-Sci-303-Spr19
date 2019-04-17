@@ -10,6 +10,7 @@ Each letter consists of a series of dots and dashes, for example...
 | a      | •- |
 | b      | -••• |
 
+## Objectives
 + Store each letter of the alphabet in a node of a binary tree of depth 4.  
   + The root node is at depth 0 and stores no letter.  
   + The left node at depth 1 stores the letter e (code •) 
@@ -29,6 +30,18 @@ Each letter consists of a series of dots and dashes, for example...
   * Make sure you use a delimiter symbol between coded letters.*
   
 ![alt text][logo]
+
+## Facts and Assumptions
++ Assume that the character delimiters are simply spaces.
+
++ Assume the string has one word only.
+
++ Assume to use the source code on Blackboard  
+  + [Binary_Tree][Binary_Tree]  
+  + [Binary_Search_Tree][Binary_Search_Tree]
+  
++ You may call the decode and encode functions in the main function.  
+  There is no need for getting input from the user or a menu-based system.
 
 ## Technical Requirements
 
@@ -57,3 +70,5 @@ Code Refereces
 Inspiration References  
 
 [logo]: https://github.com/RedGrinGrumbler/Comp-Sci-303-Spr19/blob/master/Proj2_ResourceFile_TreeImg.png "Tree Example"
+[Binary_Tree]: https://github.com/RedGrinGrumbler/Comp-Sci-303-Spr19/blob/master/Proj2_ResourceFile_TreeImg.png "BAD LINK"
+[Binary_Search_Tree]: https://github.com/RedGrinGrumbler/Comp-Sci-303-Spr19/blob/master/Proj2_ResourceFile_TreeImg.png "BAD LINK"
