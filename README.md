@@ -6,7 +6,7 @@ The collection of code from my Data Stuctures Class and the projects of the clas
 ## Project 2 (B)
 README: [MORSE Encoder/Decoder](https://github.com/RedGrinGrumbler/Comp-Sci-303-Spr19/blob/master/Proj2_README.md "Project 2 README file")
 ### Main/Header Files  
-+ 
++ [Main.cpp](https://github.com/RedGrinGrumbler/Comp-Sci-303-Spr19/blob/master/Proj2_main.cpp)
 ### Resource Files  
 + [Project 2 Guide Lines](https://github.com/RedGrinGrumbler/Comp-Sci-303-Spr19/blob/master/Proj2_Guidelines.md)
 + [Tree Image](https://github.com/RedGrinGrumbler/Comp-Sci-303-Spr19/blob/master/Proj2_ResourceFile_TreeImg.png "Tree Image")
