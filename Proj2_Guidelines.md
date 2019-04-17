@@ -108,11 +108,11 @@ commits and contributions of team members.
 [Individual Report]: https://www.dropbox.com/s/1d6hklx8f1r4amy/personal_report.docx?dl=0
 [GitHubBook]: http://git-scm.com/book/en/v2
 
-[What to Submit]: https://github.com/RedGrinGrumbler/Comp-Sci-303-Spr19/new/master#submissions
-[How to Submit it]: https://github.com/RedGrinGrumbler/Comp-Sci-303-Spr19/new/master#submission-guidelines
-[Source Code Guide Lines]: https://github.com/RedGrinGrumbler/Comp-Sci-303-Spr19/new/master#source-code
-[Report Guidelines]: https://github.com/RedGrinGrumbler/Comp-Sci-303-Spr19/new/master#report
-[Examples]: https://github.com/RedGrinGrumbler/Comp-Sci-303-Spr19/new/master#examples-for-inspiration
-[TeamWork]: https://github.com/RedGrinGrumbler/Comp-Sci-303-Spr19/new/master#teamwork
-[GitHub]: https://github.com/RedGrinGrumbler/Comp-Sci-303-Spr19/new/master#gitgithub
+[What to Submit]: #submissions
+[How to Submit it]: #submission-guidelines
+[Source Code Guide Lines]: #source-code
+[Report Guidelines]: #report
+[Examples]: #examples-for-inspiration
+[TeamWork]: #teamwork
+[GitHub]: #gitgithub
 [Grading Policy]: #grading-policy
