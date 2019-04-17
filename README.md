@@ -6,10 +6,10 @@ The collection of code from my Data Stuctures Class and the projects of the clas
 ### Project 1  
 
 ### Project 2 (B)
-README: ![MORSE Encoder/Decoder](https://github.com/RedGrinGrumbler/Comp-Sci-303-Spr19/blob/master/Proj2_README.md "Project 2 README file")
+README: [MORSE Encoder/Decoder](https://github.com/RedGrinGrumbler/Comp-Sci-303-Spr19/blob/master/Proj2_README.md "Project 2 README file")
 #### Main Files  
 + 
 #### Resource Files  
-+ 
++ [Tree Image](https://github.com/RedGrinGrumbler/Comp-Sci-303-Spr19/blob/master/Proj2_ResourceFile_TreeImg.png "Tree Image")
 #### WIKI Links  
 + 
