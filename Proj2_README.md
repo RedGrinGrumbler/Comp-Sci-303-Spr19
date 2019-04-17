@@ -49,8 +49,8 @@ _for example..._
   
 + Encode a message by replacing each letter by its code symbol. 
 
-+ Then decode the message using Morse code tree. 
-  * Make sure you use a delimiter symbol between coded letters.*
++ Then decode the message using Morse code tree.  
+  *Make sure you use a delimiter symbol between coded letters.*
   
 ![alt text][Tree]
 
