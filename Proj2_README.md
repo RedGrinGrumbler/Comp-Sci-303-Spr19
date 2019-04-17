@@ -29,7 +29,7 @@ Each letter consists of a series of dots and dashes, for example...
 + Then decode the message using Morse code tree. 
   * Make sure you use a delimiter symbol between coded letters.*
   
-![alt text][logo]
+![alt text][Tree]
 
 ## Facts and Assumptions
 + Assume that the character delimiters are simply spaces.
@@ -48,7 +48,7 @@ Each letter consists of a series of dots and dashes, for example...
 + **(Weight: 40%)** Write a function that builds the morse tree shown in the figure above.
 
   + The information of the tree (the letters and the codes) is stored in a file. 
-  + You can find the file here: https://www.dropbox.com/s/3cj8yb8gcdsrefg/morse.txt?dl=0  
+  + You can find the file here: [DropBox][Instructor_Provided_Dropbox]  
     (*Notice that the file hasn’t been laid out in convenient order for building the tree*).
 
 + **(Weight: 30%)** Your system should be able to decode a message using the morse tree that you built.  
@@ -69,6 +69,7 @@ Morse Code Table
 Code Refereces  
 Inspiration References  
 
-[logo]: https://github.com/RedGrinGrumbler/Comp-Sci-303-Spr19/blob/master/Proj2_ResourceFile_TreeImg.png "Tree Example"
+[Tree]: https://github.com/RedGrinGrumbler/Comp-Sci-303-Spr19/blob/master/Proj2_ResourceFile_TreeImg.png "Tree Example"
 [Binary_Tree]: https://github.com/RedGrinGrumbler/Comp-Sci-303-Spr19/blob/master/Proj2_ResourceFile_TreeImg.png "BAD LINK"
 [Binary_Search_Tree]: https://github.com/RedGrinGrumbler/Comp-Sci-303-Spr19/blob/master/Proj2_ResourceFile_TreeImg.png "BAD LINK"
+[Instructor_Provided_Dropbox]: https://www.dropbox.com/s/3cj8yb8gcdsrefg/morse.txt?dl=0
