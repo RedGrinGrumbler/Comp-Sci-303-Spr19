@@ -2,14 +2,14 @@
 
 You must follow these guidelines for all the projects that you work on in the data structures course.
 
-[What to Submit][What to Submit]
-[How to Submit it][How to Submit it]
-[Source Code Guide Lines][Source Code Guide Lines]
-[Report Guidelines][Report Guidelines]
-[Examples][Examples]
-[TeamWork][TeamWork]
-[GitHub][GitHub]
-[Grading Policy][Grading Policy]
+[What to Submit][What to Submit]  
+[How to Submit it][How to Submit it]  
+[Source Code Guide Lines][Source Code Guide Lines]  
+[Report Guidelines][Report Guidelines]  
+[Examples][Examples]  
+[TeamWork][TeamWork]  
+[GitHub][GitHub]  
+[Grading Policy][Grading Policy]  
 
 
 ## Submissions  
