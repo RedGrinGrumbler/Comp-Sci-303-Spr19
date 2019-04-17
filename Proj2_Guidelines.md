@@ -115,4 +115,4 @@ commits and contributions of team members.
 [Examples]: https://github.com/RedGrinGrumbler/Comp-Sci-303-Spr19/new/master#examples-for-inspiration
 [TeamWork]: https://github.com/RedGrinGrumbler/Comp-Sci-303-Spr19/new/master#teamwork
 [GitHub]: https://github.com/RedGrinGrumbler/Comp-Sci-303-Spr19/new/master#gitgithub
-[Grading Policy]: https://github.com/RedGrinGrumbler/Comp-Sci-303-Spr19/new/master#grading-policy
+[Grading Policy]: #grading-policy
