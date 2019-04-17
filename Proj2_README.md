@@ -16,21 +16,21 @@ _for example..._
 **Member Responsibilities**
 
 	Adam: (Team Leader)
-    Proj2_Guidelines.md
-    Proj2_README.md
-    Project 2 Wiki 
-    Code Reviewer
-    Individual Report
+    	Proj2_Guidelines.md
+    	Proj2_README.md
+    	Project 2 Wiki 
+    	Code Reviewer
+    	Individual Report
     
 	
 	David: 
-    Tree Building Algorithm Design
-    Project Report
-    Individual Report
+    	Tree Building Algorithm Design
+    	Project Report
+    	Individual Report
 	
 	Brad:  
-    UML Design 
-    Individual Report
+    	UML Design 
+    	Individual Report
 	
 
 ## Objectives
