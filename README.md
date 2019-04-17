@@ -7,14 +7,18 @@ The collection of code from my Data Stuctures Class and the projects of the clas
 README: [MORSE Encoder/Decoder](https://github.com/RedGrinGrumbler/Comp-Sci-303-Spr19/blob/master/Proj2_README.md "Project 2 README file")
 ### Main/Header Files  
 + [Main.cpp](https://github.com/RedGrinGrumbler/Comp-Sci-303-Spr19/blob/master/Proj2_main.cpp)
++ [File Reader](https://github.com/RedGrinGrumbler/Comp-Sci-303-Spr19/blob/master/Proj2_FileReader.cpp)
++ [Encoder](https://github.com/RedGrinGrumbler/Comp-Sci-303-Spr19/blob/master/Proj2_Encoder.cpp)
++ [Decoder](https://github.com/RedGrinGrumbler/Comp-Sci-303-Spr19/blob/master/Proj2_Decoder.cpp)
 
-### Resource Files  
+### Resource Files 
++ [Morse Data File](https://github.com/RedGrinGrumbler/Comp-Sci-303-Spr19/blob/master/Proj2_MorseDataFile.txt)
 + [Project 2 Guide Lines](https://github.com/RedGrinGrumbler/Comp-Sci-303-Spr19/blob/master/Proj2_Guidelines.md)
 + [Tree Image](https://github.com/RedGrinGrumbler/Comp-Sci-303-Spr19/blob/master/Proj2_ResourceFile_TreeImg.png "Tree Image")
 + [Grading Factors](https://github.com/RedGrinGrumbler/Comp-Sci-303-Spr19/blob/master/Proj2_ResourceFile_GradingFactors.png)
 
 ### WIKI Links  
-+ 
++ [Uploading UML to GitHub](https://stackoverflow.com/questions/32203610/how-to-integrate-uml-diagrams-into-gitlab-or-github)
 
 ## Comp-Sci 303 General
 ### Source Files
