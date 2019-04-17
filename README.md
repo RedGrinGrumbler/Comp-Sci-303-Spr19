@@ -1,19 +1,17 @@
 # Comp-Sci-303-Spr19
-The collection of code from my Data Stuctures Class and the projects of the class.
+The collection of code from my Data Stuctures Class and the projects of the class. 
 
-## Directory  
+## Project 1  
 
-### Project 1  
-
-### Project 2 (B)
+## Project 2 (B)
 README: [MORSE Encoder/Decoder](https://github.com/RedGrinGrumbler/Comp-Sci-303-Spr19/blob/master/Proj2_README.md "Project 2 README file")
-#### Main/Header Files  
+### Main/Header Files  
 + 
-#### Resource Files  
+### Resource Files  
 + [Project 2 Guide Lines](https://github.com/RedGrinGrumbler/Comp-Sci-303-Spr19/blob/master/Proj2_Guidelines.md)
 + [Tree Image](https://github.com/RedGrinGrumbler/Comp-Sci-303-Spr19/blob/master/Proj2_ResourceFile_TreeImg.png "Tree Image")
 + [Grading Factors](https://github.com/RedGrinGrumbler/Comp-Sci-303-Spr19/blob/master/Proj2_ResourceFile_GradingFactors.png)
-#### WIKI Links  
+### WIKI Links  
 + 
 ## Comp-Sci 303 General
 ### Source Files
