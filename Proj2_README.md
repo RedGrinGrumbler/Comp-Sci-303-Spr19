@@ -29,6 +29,8 @@ _for example..._
     	Individual Report
 	
 	Brad:  
+	File Importer
+	Morse Decoder
     	UML Design 
     	Individual Report
 	
