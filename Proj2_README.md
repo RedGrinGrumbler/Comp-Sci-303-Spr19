@@ -90,6 +90,7 @@ _For example..._
 
 ## Resources (Need Links)
 
+[Resources File](https://github.com/RedGrinGrumbler/Comp-Sci-303-Spr19/blob/master/Proj2_Sources%26References.md)
 Morse Code Table  
 Code Refereces  
 Inspiration References  
