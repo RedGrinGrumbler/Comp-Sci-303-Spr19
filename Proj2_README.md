@@ -21,7 +21,7 @@ _for example..._
     	Project 2 Wiki 
     	Code Reviewer
     	Individual Report
-    	Tree Building Function
+    	Proj2_BinSrchTreeBldr.cpp
     	Main.cpp
     
 	David: 
@@ -29,12 +29,13 @@ _for example..._
     	Project Report
     	Individual Report
     	Algorthim Efficiency
+    	Proj2_Encoder.cpp
 	
 	Brad:    
     	UML Design  
     	Individual Report 
-    	Morse File Reader/Importer  
-    	Morse Decoder 
+    	Proj2_FileReader.cpp  
+    	Proj2_Decoder .cpp
 	
 
 ## Objectives
