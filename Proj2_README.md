@@ -28,11 +28,11 @@ _for example..._
     	Project Report
     	Individual Report
 	
-	Brad:  
-	File Importer
-	Morse Decoder
-    	UML Design 
-    	Individual Report
+	Brad:    
+    	UML Design  
+    	Individual Report 
+    	File Importer  
+    	Morse Decoder 
 	
 
 ## Objectives
