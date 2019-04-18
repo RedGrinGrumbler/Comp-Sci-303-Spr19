@@ -7,6 +7,7 @@ The collection of code from my Data Stuctures Class and the projects of the clas
 README: [MORSE Encoder/Decoder](https://github.com/RedGrinGrumbler/Comp-Sci-303-Spr19/blob/master/Proj2_README.md "Project 2 README file")
 ### Main/Header Files  
 + [Main.cpp](https://github.com/RedGrinGrumbler/Comp-Sci-303-Spr19/blob/master/Proj2_main.cpp)
++ [BST Builder](https://github.com/RedGrinGrumbler/Comp-Sci-303-Spr19/blob/master/Proj2_BinSrchTreeBldr.cpp)
 + [File Reader](https://github.com/RedGrinGrumbler/Comp-Sci-303-Spr19/blob/master/Proj2_FileReader.cpp)
 + [Encoder](https://github.com/RedGrinGrumbler/Comp-Sci-303-Spr19/blob/master/Proj2_Encoder.cpp)
 + [Decoder](https://github.com/RedGrinGrumbler/Comp-Sci-303-Spr19/blob/master/Proj2_Decoder.cpp)
