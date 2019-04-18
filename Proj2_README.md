@@ -21,17 +21,19 @@ _for example..._
     	Project 2 Wiki 
     	Code Reviewer
     	Individual Report
+    	Tree Building Function
+    	Main.cpp
     
-	
 	David: 
     	Tree Building Algorithm Design
     	Project Report
     	Individual Report
+    	Algorthim Efficiency
 	
 	Brad:    
     	UML Design  
     	Individual Report 
-    	File Importer  
+    	Morse File Reader/Importer  
     	Morse Decoder 
 	
 
