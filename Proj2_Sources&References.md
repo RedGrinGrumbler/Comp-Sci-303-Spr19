@@ -9,3 +9,4 @@ Web Sites
 7. [cforcoding : BigO in Plain English](http://www.cforcoding.com/2009/07/plain-english-explanation-of-big-o.html)
 8. [visualgo : Four Cases](https://visualgo.net/img/four_cases.png)
 9. [visualgo : BST](https://visualgo.net/bn/bst)
+10. [BST by CodeTrain](https://www.youtube.com/watch?v=ZNH0MuQ51m4)
