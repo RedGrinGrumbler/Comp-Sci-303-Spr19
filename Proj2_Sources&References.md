@@ -1,5 +1,40 @@
+# Code
 
-Web Sites
+### std::sort()
++ REF:                    http://www.cplusplus.com/reference/algorithm/sort/
++ Complex: n Log(n)
+
+### std::reverse()
++ REF:                    http://www.cplusplus.com/reference/algorithm/reverse/
++ Complex: n / 2
+
+### std::vector
++ Empty()        
+  * Complexity: Constant         
+  * REF:       http://www.cplusplus.com/reference/vector/vector/empty/
++ operator[]     
+  * Complexity: Constant         
+  * REF:       http://www.cplusplus.com/reference/vector/vector/operator[]/
++ Size()         
+  * Complexity: Constant         
+  * REF:       http://www.cplusplus.com/reference/vector/vector/size/           
++ Front()       
+  * Complexity: Constant         
+  * REF:       http://www.cplusplus.com/reference/vector/vector/front/
++ Push_Back()    
+  * Complexity: Constant         
+  * REF:       http://www.cplusplus.com/reference/vector/vector/push_back/
++ Pop_Back()     
+  * Complexity: Constant         
+  * REF:       http://www.cplusplus.com/reference/vector/vector/pop_back/
++ Erase()        
+  * Complex: n(erased items) + n(items after erased)
+  * REF:       http://www.cplusplus.com/reference/vector/vector/erase/
++ at()           
+  * Complex:Constant
+  * REF:       http://www.cplusplus.com/reference/vector/vector/at/
+
+# Web Sites
 1. [geeksforgeeks : Print Ancestors](https://www.geeksforgeeks.org/print-ancestors-of-a-given-node-in-binary-tree/)
 2. [geeksforgeeks : Construct BST Fr Array](https://www.geeksforgeeks.org/construct-complete-binary-tree-given-array/)
 3. [StackOverFlow : Find index of Parent Node](https://stackoverflow.com/questions/15513482/finding-the-location-of-a-parent-node-in-a-binary-tree)
