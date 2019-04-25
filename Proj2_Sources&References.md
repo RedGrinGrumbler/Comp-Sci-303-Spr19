@@ -1,11 +1,11 @@
 # Code
 
 ### std::sort()
-+ Complex: **n Log(n)**
++ Complexity: **n Log(n)**
 + REF:                    http://www.cplusplus.com/reference/algorithm/sort/
 
 ### std::reverse()
-+ Complex: **n / 2**
++ Complexity: **n / 2**
 + REF:                    http://www.cplusplus.com/reference/algorithm/reverse/
 
 ### std::vector
