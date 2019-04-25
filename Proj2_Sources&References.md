@@ -1,12 +1,12 @@
 # Code
 
 ### std::sort()
-+ REF:                    http://www.cplusplus.com/reference/algorithm/sort/
 + Complex: **n Log(n)**
++ REF:                    http://www.cplusplus.com/reference/algorithm/sort/
 
 ### std::reverse()
-+ REF:                    http://www.cplusplus.com/reference/algorithm/reverse/
 + Complex: **n / 2**
++ REF:                    http://www.cplusplus.com/reference/algorithm/reverse/
 
 ### std::vector
 + Empty()        
