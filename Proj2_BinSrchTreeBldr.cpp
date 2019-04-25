@@ -64,4 +64,15 @@ Node* insert(Node* root, vector<char> morseKey)
     // Points to where the new node is inserted 
     return y; 
 } 
+
+While(!inputFile.end()){               //PQueue Builder
+    vector<char> morse = currentLine;  //Read from File
+    PQueue.push_back(new Node(morse)); //Emplace next line as new Node in PQueue
+
+}
+
+PQueue.sort(); // N Log(n)
+
+while(!PQueue.empty()){ //BST Builder
+}
   
