@@ -3,6 +3,7 @@
 ### std::sort()
 + Complexity: **n Log(n)**
 + REF:                    http://www.cplusplus.com/reference/algorithm/sort/
++ REF: (Descending)       https://www.includehelp.com/stl/sort-an-array-in-descending-order-using-sort-function.aspx
 
 ### std::reverse()
 + Complexity: **n / 2**
