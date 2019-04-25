@@ -2,36 +2,36 @@
 
 ### std::sort()
 + REF:                    http://www.cplusplus.com/reference/algorithm/sort/
-+ Complex: n Log(n)
++ Complex: **n Log(n)**
 
 ### std::reverse()
 + REF:                    http://www.cplusplus.com/reference/algorithm/reverse/
-+ Complex: n / 2
++ Complex: **n / 2**
 
 ### std::vector
 + Empty()        
-  * Complexity: Constant         
+  * Complexity: **Constant**         
   * REF:       http://www.cplusplus.com/reference/vector/vector/empty/
 + operator[]     
-  * Complexity: Constant         
+  * Complexity: **Constant**         
   * REF:       http://www.cplusplus.com/reference/vector/vector/operator[]/
 + Size()         
-  * Complexity: Constant         
+  * Complexity: **Constant**         
   * REF:       http://www.cplusplus.com/reference/vector/vector/size/           
 + Front()       
-  * Complexity: Constant         
+  * Complexity: **Constant**         
   * REF:       http://www.cplusplus.com/reference/vector/vector/front/
 + Push_Back()    
-  * Complexity: Constant         
+  * Complexity: **Constant**         
   * REF:       http://www.cplusplus.com/reference/vector/vector/push_back/
 + Pop_Back()     
-  * Complexity: Constant         
+  * Complexity: **Constant**         
   * REF:       http://www.cplusplus.com/reference/vector/vector/pop_back/
 + Erase()        
-  * Complex: n(erased items) + n(items after erased)
+  * Complexity: **n(erased items) + n(items after erased)**
   * REF:       http://www.cplusplus.com/reference/vector/vector/erase/
 + at()           
-  * Complex:Constant
+  * Complexity: **Constant** 
   * REF:       http://www.cplusplus.com/reference/vector/vector/at/
 
 # Web Sites
