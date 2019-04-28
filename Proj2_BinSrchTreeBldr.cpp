@@ -41,44 +41,28 @@ Node* newNode(vector<char> morse, char alpha){
     node->left = node->right = NULL; //Standard Children are NULL
     return (node);
 }
-Node* insert(Node* root, vector<char> morseKey){
-    // Create a new Node
-    Node* theNewNode = newNode(morseKey);
+void insertNode(Node* tempNode, Node* root = NULL, int i = 0){
+  char c = tempNode->morseKey[i]
 
-    // Declare pointer to start traversing root
-    Node* x = root;
-
-    // Trailing pointer of x
-    Node* y = NULL;
-
-    while (x != NULL) {
-        y = x;
-        if (x->morseKey == '.')
-            x = x->left;
-        else if (x->morseKey == '_')
-            x = x->right;
-        else
-            cout << "Error with Morse Input @ " << y->data << endl << break;//Error Catching Function
+  if(c == '.'){//Go Left
+    if(root->left != NULL){
+      i++;
+      insertNode(tempNode, root->left, i)
     }
-
-    // If the ROOT is NULL, theNewNode == ROOT node
-    if (y == NULL)
-        y = theNewNode;
-
-    // If the new key ends w/ '.', yNode->left == theNewNode;
-    else if (y->morseKey == '.')
-        y->left = theNewNode;
-
-    // Else If the new key ends w/ '_', yNode->right == theNewNode;
-    else if (y->morseKey == '_')
-        y->right = theNewNode;
-
-    //Error Catching Function
     else
-            cout << "Error with Morse Input @ " << y->data << endl << break;
-
-    // Points to where the new node is inserted
-    return y;
+      root->left = tempNode;//Set New Child
+  }
+  else if(c == '_'){//Go Right
+  if(root->right != NULL){
+      i++;
+      insertNode(tempNode, root->right, i)
+    }
+    else
+      root->right = tempNode;//Set New Child
+  }
+  else {
+    cout << "input error \n" << endl << break;
+  }
 }
 
 While(getline(inputFile, line)){//PQueue Builder
@@ -99,5 +83,6 @@ While(getline(inputFile, line)){//PQueue Builder
 PQueue.sort(0, morse.size()+1, greater<>(node.morseKey)); // N Log(n), Sorts Whole Vector in descending order
 
 while(!PQueue.empty()){ //BST Builder
-  
+  insertNode(PQueue.back());
+  PQueue.pop_back();
 }
