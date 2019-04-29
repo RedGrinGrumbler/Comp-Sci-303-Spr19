@@ -15,6 +15,9 @@ using namespace std;
 */
 void convertMorseCode(){
     ifstream morseCodeFile; //Sets the morseCodeFile as an input of the file
-    morseCodeFile.open("team7morsecode.txt"); //Opens the .txt file
+    morseCodeFile.open("morse.txt"); //Opens the .txt file
     string morseLine = "";
 }
+
+
+
