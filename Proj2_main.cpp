@@ -4,7 +4,7 @@
 using namespace std;
 
 int openMorseFile(){
-    ifstream morseCodeFile ("morse.txt");
+    ifstream morseCodeFile ("Proj2_MorseDataFile.txt");
     string line;
     if (morseCodeFile.is_open())
     {
