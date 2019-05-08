@@ -26,12 +26,14 @@ Node* newNode(Node& temp, string morse, char alpha){
 
     return &temp;
 }
-Node* insertNode(Node* tempNode, Node* root, int i = 0){
-    vector<char> morseArr = {};
-    int n = 0;
-    for(char & c : tempNode->morse){
-        morseArr[n] = c;
-        n++;
+Node* insertNode(Node* tempNode, Node* root, int i = 0, vector<char> v = {}){
+    if(i == 0){
+        vector<char> morseArr = {};
+        int n = 0;
+        for(char & c : tempNode->morse){//build vector<Char>
+            morseArr[n] = c;
+            n++;
+        }
     }
     char c = morseArr[i];
 
@@ -41,18 +43,14 @@ Node* insertNode(Node* tempNode, Node* root, int i = 0){
     else if(c == '.'){//Go Left
         if(root->left != NULL){
             i++;
-            insertNode(tempNode, root->left, i);
+            root->left = insertNode(tempNode, root->left, i, morseArr);
         }
-        else
-            root->left = tempNode;//Set New Child
     }
     else if(c == '_'){//Go Right
         if(root->right != NULL){
             i++;
-            insertNode(tempNode, root->right, i);
+            root->right = insertNode(tempNode, root->right, i, morseArr);
         }
-        else
-            root->right = tempNode;//Set New Child
     }
     // else {
     //   cout << "input error \n" << endl;
