@@ -53,6 +53,7 @@ Node* insertNode(Node* tempNode, Node* root, int i = 0, vector<char> v = {}){
         }
 
     }
+    return EXIT_SUCCESS;
     // else {
     //   cout << "input error \n" << endl;
     // }
@@ -92,6 +93,7 @@ string encode(const string& clearTextStr, vector<Node> morseKey){ //Encode a giv
             morseStr.append(temp->morse + " ");
         }
     }
+    return morseStr;
 }
 string decode(const string& morseCode, vector<Node> morseKey){ //Decode a given morse message
     string clearTextStr;
@@ -103,7 +105,7 @@ string decode(const string& morseCode, vector<Node> morseKey){ //Decode a given 
             clearTextStr.append(string(1, temp->alpha));
         }
     }
-
+    return clearTextStr;
 }
 vector<Node> BST_Builder(string InFile, Node * root){// Builds the BST for Morse Encoding/Decoding
 
@@ -121,6 +123,7 @@ vector<Node> BST_Builder(string InFile, Node * root){// Builds the BST for Morse
     for(int x = 0; x < peopleVector.size(); x++){ //Build the BST
         insertNode(&peopleVector[x], root);
     }
+    return peopleVector;
 }
 
 int main() {
