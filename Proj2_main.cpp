@@ -27,8 +27,8 @@ Node* newNode(Node& temp, string morse, char alpha){
     return &temp;
 }
 Node* insertNode(Node* tempNode, Node* root, int i = 0, vector<char> v = {}){
+    vector<char> morseArr = {};
     if(i == 0){
-        vector<char> morseArr = {};
         int n = 0;
         for(char & c : tempNode->morse){//build vector<Char>
             morseArr[n] = c;
@@ -51,35 +51,36 @@ Node* insertNode(Node* tempNode, Node* root, int i = 0, vector<char> v = {}){
             i++;
             root->right = insertNode(tempNode, root->right, i, morseArr);
         }
+
     }
     // else {
     //   cout << "input error \n" << endl;
     // }
 }
 Node* findChar(char c, vector<Node> bst){
-    Node leaf = bst[0];
-    while(c != leaf.alpha){
-        if(c > leaf.alpha){
-            Node * leaf = leaf->right;
+    Node * leaf = &bst[0];
+    while(c != leaf->alpha){
+        if(c > leaf->alpha){
+            leaf = leaf->right;
         }
-        else if(c < leaf.alpha){
-            Node * leaf = leaf->left;
+        else if(c < leaf->alpha){
+            leaf = leaf->left;
         }
     }
-    return &leaf;
+    return leaf;
 }
 Node* findMorse(char c, vector<Node> bst){
-    Node leaf = bst.front();
+    Node* leaf = &bst[0];
     string word; //str read by char
     for (char & c : word){//search morseKey for the equivalent value and append stream
-        if(&c == "."){
-            Node * leaf = leaf->left;
+        if(c == '.'){
+            leaf = leaf->left;
         }
-        else if(&c == "_"){
-            Node * leaf = leaf->right;
+        else if(c == '_'){
+            leaf = leaf->right;
         }
     }
-    return &leaf;
+    return leaf;
 }
 string encode(const string& clearTextStr, vector<Node> morseKey){ //Encode a given message as Morse
     string morseStr;
@@ -99,9 +100,10 @@ string decode(const string& morseCode, vector<Node> morseKey){ //Decode a given 
     while(message >> word){//
         for (char & c : word){//search morseKey for the equivalent value and append stream
             Node * temp = findChar(c, morseKey);
-            clearTextStr.append(temp->alpha + " ");
+            clearTextStr.append(string(1, temp->alpha));
         }
     }
+
 }
 vector<Node> BST_Builder(string InFile, Node * root){// Builds the BST for Morse Encoding/Decoding
 
