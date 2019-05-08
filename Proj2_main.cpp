@@ -92,6 +92,7 @@ string encode(const string& clearTextStr, vector<Node> morseKey){ //Encode a giv
             Node * temp = findMorse(c, morseKey);
             morseStr.append(temp->morse + " ");
         }
+
     }
     return morseStr;
 }
